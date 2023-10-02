@@ -74,7 +74,7 @@ img {
 }
 
  /* Стили для модального окна */
- .modal {
+ /* .modal {
   display: none;
   position: fixed;
   z-index: 999;
@@ -122,29 +122,29 @@ img {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
  /* Стили для формы */
         
-.forma__wrapper {
+ .forma__wrapper {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
- form {
+ /* form {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding:70px;
-}
+} */
 
 .forma {
   display: flex;
   justify-content: center;
   color: #ff7300;
 }
-
+/* 
 .forma__button {
   color: #66ff00;
   font-family: 'Courier New', Courier, monospace;
@@ -152,9 +152,9 @@ img {
   background: #ff3c00;
   padding: 20px;
   border-radius: 20px;
-}
+} */
 
-label {
+/* label {
   font-size:18px;
   margin-bottom: 10px;
 }
@@ -180,16 +180,24 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
-}
+} */
 
-button {
+/* button {
   background: transparent;
   border: 0;
   padding: 0;
   cursor: pointer;
   outline: 0;
   -webkit-appearance: none;
-}
+} */
+
+.forma__button1 {
+  font-size: 40px;
+background: #003cff;
+padding: 10px 20px;
+color: #ffd900;
+border-radius: 20px;
+} 
 
 
 /* Слайдер  */
@@ -318,9 +326,13 @@ button {
     width:400px;
   }
 
-  
+  .forma__button1 {
+    font-size: 20px;
+  }
+
+
   .forms {
-    width:350px;
+    width:300px;
     position: absolute;
     right:-30px;
   }
@@ -349,7 +361,7 @@ button {
   .presents-present {
   position: relative;
   width:40px;
-  bottom:80px;
+  bottom:70px;
   left:10px;
   }
 
@@ -357,6 +369,6 @@ button {
     position: relative;
     width:40px;
     left:325px;
-    bottom:130px;
+    bottom:120px;
   }
 }

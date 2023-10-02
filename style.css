@@ -144,6 +144,19 @@ img {
   justify-content: center;
   color: #ff7300;
 }
+
+.forma-content {
+  display: flex;
+justify-content: center;
+}
+
+.formas-contents {
+  font-family: "Courier New", Courier, monospace;
+  color: #4400ff;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
 /* 
 .forma__button {
   color: #66ff00;
@@ -368,7 +381,11 @@ border-radius: 20px;
   .present-presents {
     position: relative;
     width:40px;
-    left:325px;
+    left:300px;
     bottom:120px;
+  }
+
+  .formas-contents {
+    max-width:200px;
   }
 }

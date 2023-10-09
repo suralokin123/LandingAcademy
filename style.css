@@ -13,7 +13,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   font-family: "PT Sans Caption";
-  background:url(./img/celebrate.png) no-repeat center;
+  background: #e5ff00;
 }
 
 img {
@@ -34,6 +34,16 @@ img {
   justify-content:center;
   gap: 40px;
   align-items: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom:100px;
+}
+
+.photo-photo {
+  border-radius: 20px;
 }
 
 .logo {
@@ -341,6 +351,10 @@ border-radius: 20px;
 
   .forma__button1 {
     font-size: 20px;
+  }
+
+  .photo-photo {
+    width: 350px;
   }
 
 
